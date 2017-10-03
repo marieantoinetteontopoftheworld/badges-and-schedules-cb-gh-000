@@ -7,3 +7,9 @@ end
 def batch_badge_creator(string_array)
   string_array.collect{|string| badge_maker(string)}
 end
+
+def assign_rooms(speaker_array)
+  room_messages = []
+  speaker_array.each_with_index{|speaker, index| room_messages.push("Hello, #{speaker}! You'll be assigned to room #{index}!")}
+  return room_messages
+end
