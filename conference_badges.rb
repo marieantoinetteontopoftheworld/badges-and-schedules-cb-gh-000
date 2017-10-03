@@ -1,7 +1,7 @@
 # Write your code here.
 
 def badge_maker(string)
-  puts "Hello, my name is #{string}"
+  return "Hello, my name is #{string}"
 end
 
 def batch_badge_creator(string_array)
